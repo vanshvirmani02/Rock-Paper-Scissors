@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'The Lost Dungeon';
+    src: url('TheLostDungeon.eot');
+    src: url('TheLostDungeon.eot?#iefix') format('embedded-opentype'),
+        url('TheLostDungeon.woff2') format('woff2'),
+        url('TheLostDungeon.woff') format('woff'),
+        url('TheLostDungeon.ttf') format('truetype'),
+        url('TheLostDungeon.svg#TheLostDungeon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'The Lost Dungeon';
+    src: url('TheLostDungeon_1.eot');
+    src: url('TheLostDungeon_1.eot?#iefix') format('embedded-opentype'),
+        url('TheLostDungeon_1.woff2') format('woff2'),
+        url('TheLostDungeon_1.woff') format('woff'),
+        url('TheLostDungeon_1.ttf') format('truetype'),
+        url('TheLostDungeon_1.svg#TheLostDungeon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

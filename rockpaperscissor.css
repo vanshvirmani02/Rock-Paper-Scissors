@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #130b3d;
+    color: white;
+    font-family: 'TheLostDungeon','TheLostDungeon_1';
+    height: 20vmin;
+    font-size: 7rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.options:hover{
+    border: 4px solid black;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.options{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+.choice:hover{
+    background-color: pink;
+}
+.choice{
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40vmin;
+
+}
+.score-board{
+    display: flex;
+    font-family: 'TheLostDungeon','TheLostDungeon_1';
+    height: 20vmin;
+    width: 75vmin;
+    font-size: 4rem;
+    justify-content: space-evenly;
+}
+.sb-box{
+    display: flex;
+    justify-content: center;
+}
+
+#msg{
+    font-family: 'TheLostDungeon','TheLostDungeon_1';
+    font-size: 10vmin;
+    /* height: 15vmin;
+    width: 75vmin; */
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+.msg-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.long-msg{
+    font-family: 'TheLostDungeon','TheLostDungeon_1';
+    font-size: 4rem;
+    height: 15vmin;
+    width: 75vmin;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'TheLostDungeon';
+      src: url('fonts/TheLostDungeon.eot'); /* IE9 Compat Modes */
+      src: url('fonts/TheLostDungeon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/TheLostDungeon.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/TheLostDungeon.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/TheLostDungeon.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/TheLostDungeon.svg#svgFontName') format('svg'); /* Legacy iOS */
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+  }
+
+@font-face {
+    font-family: 'TheLostDungeon_1';
+    src: url('fonts/TheLostDungeon_1.eot'); /* IE9 Compat Modes */
+    src: url('fonts/TheLostDungeon_1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/TheLostDungeon_1.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/TheLostDungeon_1.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/TheLostDungeon_1.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/TheLostDungeon_1svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
